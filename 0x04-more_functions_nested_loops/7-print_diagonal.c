@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * print_line - prints line
- * @n: param
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-void print_line(int n)
+int main(void)
 {
-	int i = 1;
-
-	while (i <= n)
-	{
-		_putchar(95);
-		i++;
-	}
-	_putchar('\n');
+    print_diagonal(0);
+    print_diagonal(2);
+    print_diagonal(10);
+    print_diagonal(-4);
+    return (0);
 }
