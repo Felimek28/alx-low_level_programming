@@ -1,15 +1,29 @@
-#include "main.h"
+#include ¨main.h"
+
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * * print diagonal-draws a diagonal line on the terminal
+ * @n number of times the character\should be printed
  */
-int main(void)
-{
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
-    return (0);
-}
+ void print_diagonal(int n)
+ {
+     if(n<=0)
+
+	{
+         _putchar("\n")
+       }else
+      {
+     int ij
+     for(i=0,i<n,j++)
+     {
+      for(j=0,j<n,i++)
+      {
+        if(j==i)
+          _putchar("\\"),
+         else if(j<i)
+           _putchar(" ")
+        }
+        _putchar("\n"),
+      }
+     }
+  }
